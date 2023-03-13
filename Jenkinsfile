@@ -24,7 +24,7 @@ pipeline {
       steps {
           sh 'pwd'
           sh 'echo $PATH'
-          sh 'trufflehog3 git https://github.com/satishcloudsec/hello-world.git'
+          //sh 'trufflehog3 git https://github.com/satishcloudsec/hello-world.git'
       }
      }
   }
