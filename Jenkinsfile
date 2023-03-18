@@ -24,7 +24,7 @@ pipeline {
       steps {
           sh 'pwd'
           sh 'echo $PATH'
-          sh 'echo ${USER}
+          sh 'echo ${USER}'
           sh 'docker run --rm -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --org=trufflesecurity'
           //sh 'trufflehog3 git https://github.com/satishcloudsec/hello-world.git'
       }
